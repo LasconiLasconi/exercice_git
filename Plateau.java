@@ -135,4 +135,9 @@ public class Plateau {
 	public int changeJoueur(int nombre) {
 		return ((nombre + 1) % 2);
 	}
+	public static void main (String[] args) {
+
+		Plateau plateauDeJeu= new Plateau(10);
+		System.out.println(plateauDeJeu);
+	}
 }
